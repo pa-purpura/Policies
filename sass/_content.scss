@@ -1,0 +1,33 @@
+
+.container{
+  margin: $BaseMargin*20 auto $BaseMargin*5;
+  width: 60%;
+  height: auto;
+  & .container_card{
+    width: 100%;
+    height: auto;
+    margin: $BaseMargin*2 auto;
+    & .container_card_question{
+      width: 100%;
+      height: auto;
+      margin: $BaseMargin auto;
+      & h1{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+        color: $DataColor;
+      }
+    }
+    & .container_card_answer{
+      width: 100%;
+      height: auto;
+      margin: $BaseMargin*3 auto;
+      & h3{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        color: $DataColor;
+      }
+    }
+  }
+}
